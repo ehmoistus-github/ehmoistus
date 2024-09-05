@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="et">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Ettevõtte nimi - kirjeldus, portfoolio ja kontaktinfo">
+    <title>Ettevõtte Nimi</title>
+    <link rel="stylesheet" href="styles.css"> <!-- Siin lisame hiljem CSS-i -->
+</head>
+<body>
+    <!-- Avaleht -->
+    <header>
+        <h1>Ettevõtte Nimi</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">Meist</a></li>
+                <li><a href="#portfolio">Portfoolio</a></li>
+                <li><a href="#contact">Kontakt</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <!-- Meist Leht -->
+    <section id="about">
+        <h2>Meist</h2>
+        <p>Siin saad jagada oma ettevõtte missiooni, väärtusi ja tausta. Tutvusta oma tiimi ja kirjuta, millega tegelete.</p>
+    </section>
+
+    <!-- Portfoolio Leht -->
+    <section id="portfolio">
+        <h2>Portfoolio</h2>
+        <div class="portfolio-item">
+            <img src="pilt1.jpg" alt="Projekt 1">
+            <h3>Projekt 1</h3>
+            <p>Kirjeldus projektist.</p>
+        </div>
+        <div class="portfolio-item">
+            <img src="pilt2.jpg" alt="Projekt 2">
+            <h3>Projekt 2</h3>
+            <p>Kirjeldus projektist.</p>
+        </div>
+        <!-- Lisa rohkem projekte vastavalt vajadusele -->
+    </section>
+
+    <!-- Kontakt Leht -->
+    <section id="contact">
+        <h2>Kontakt</h2>
+        <form action="mailto:email@example.com" method="post" enctype="text/plain">
+            <label for="name">Nimi:</label>
+            <input type="text" id="name" name="name" required>
+
+            <label for="email">E-post:</label>
+            <input type="email" id="email" name="email" required>
+
+            <label for="message">Sõnum:</label>
+            <textarea id="message" name="message" required></textarea>
+
+            <button type="submit">Saada</button>
+        </form>
+    </section>
+
+    <footer>
+        <p>&copy; 2024 Ettevõtte Nimi. Kõik õigused kaitstud.</p>
+    </footer>
+</body>
+</html>
